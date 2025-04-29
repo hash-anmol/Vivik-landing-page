@@ -22,8 +22,7 @@ The user is creating a vibrant, on-brand landing page for "VIVIK", a friendship-
    - Implement a global noise texture overlay (e.g., repeating grainy PNG or SVG).
 3. **Header Component**  
    - Create `<Header>` with logo which is "VIVIK" in Archievo Black font (this would be there in the image pasted with the prompt for reference), and hamburger icon menu, clicking which would open a Menu with the site links in the menu 
-   - For PC, the header would have the site links in the header directly, neatly positioned.
-   - Site links: Home, Our Story, Contact Us, Progress Board. 
+   - For both PC and mobile, the header now has only the menu button. All site links (Home, Our Story, Contact Us, Progress Board) are accessible via the menu modal. No direct links in the header bar for any screen size.
 4. **Hero Section**  
    - **Component Structure:** Create `components/hero-section/hero-section.tsx` as a named export. Place static content and interfaces at file end.
    - **Layout:** Use responsive flex/grid. Left: headline, subtitle, email form. Right: two overlapping card placeholders.
@@ -171,8 +170,7 @@ The footer should provide a clear, visually distinct end to the landing page. It
 
 # Executor's Feedback or Assistance Requests
 
-- Global Styles & Fonts complete: Inter (Google Fonts) and Archivo Black (Google Fonts) loaded via Next.js font loader; Tailwind config and CSS variables set for lemon, black, white; metadata updated; noise overlay CSS stubbed (add actual PNG for production). Ready for Planner/user review before proceeding to Header Component.
-- Next step: implement Header Component as per plan.
+- Header navigation has been unified: All navigation links are now only accessible via the menu button/modal, even on desktop (PC). The direct nav links have been removed from the header bar. The menu button/modal is visible on all screen sizes. No blockers encountered. Ready for user review and manual testing.
 - Footer section planned. Proceeding to implementation: logo left, social links right, visually distinct, responsive.
 
 # Lessons

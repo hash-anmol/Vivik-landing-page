@@ -75,7 +75,7 @@ function EmailSignupForm() {
         </button>
       </div>
       <span className="block text-xs text-black/60 pl-1 mt-2">No spam, just good vibes when we launch! <span role="img" aria-label="sparkles">✨</span></span>
-      {(status === 'success' || alreadySubmitted) && <div className="text-green-600 text-xs mt-2">Thank you! Your email has been recieved and you'll be notified at launch.</div>}
+      {(status === 'success' || alreadySubmitted) && <div className="text-green-600 text-xs mt-2">Thank you! Your email has been recieved and you&apos;ll be notified at launch.</div>}
       {status === 'error' && <div className="text-red-600 text-xs mt-2">Something went wrong. Please try again.</div>}
     </form>
   )

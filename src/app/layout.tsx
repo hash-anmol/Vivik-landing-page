@@ -2,7 +2,7 @@ import * as React from "react"
 import type { Metadata } from "next"
 import { Inter, Archivo_Black } from "next/font/google"
 import "./globals.css"
-
+import { Header } from "./components/header"
 
 //loads inter font and sets it as a variable 
 const inter = Inter({
@@ -39,7 +39,7 @@ export default function RootLayout({
         }}
       >
         {/* Header for all pages */}
-        {React.createElement(require('./components/header').Header)}
+        <Header />
         {children}
       </body>
     </html>

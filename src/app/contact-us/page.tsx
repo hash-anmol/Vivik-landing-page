@@ -14,7 +14,7 @@ function ContactUsPage() {
           Contact Us
         </h1>
         <p className="text-lg md:text-xl text-black/80 mb-8 text-center max-w-xl">
-          We'd love to hear from you! Fill out the form below or reach out via email or social media.
+          We&apos;d love to hear from you! Fill out the form below or reach out via email or social media.
         </p>
         <form
           className="w-full max-w-md flex flex-col gap-4 bg-white rounded-2xl shadow-lg p-6 border border-black/10"

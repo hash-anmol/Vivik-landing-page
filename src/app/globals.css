@@ -1,74 +1,193 @@
 @import "tailwindcss";
 
 :root {
-  --background: #feeb6b; /* Exact yellow from the image */
-  --foreground: #000000;
-  --font-family: var(--font-dela-gothic);
+  --background: #ffffff; /* Lemon yellow */
+  --foreground: #171717; /* Black */
+  --font-inter: 'Inter', sans-serif;
+  --font-archivo-black: 'Archivo Black', sans-serif;
+  --color-lemon: #e7e294;
+  --color-black: #171717;
+  --color-white: #FFFFFF;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Remove old Geist variables */
 
-@media (prefers-color-scheme: dark) {
+
+/* this works if the browser or the os is in dark mode, commented out because we are not using dark mode for now */
+
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #feeb6b; /* Keep the yellow background */
-    --foreground: #000000;
+    --background: #0a0a0a;
+    --foreground: #ededed;
   }
-}
+} */
 
+/* typography for the body */
 body {
-  background: var(--background);
+  /* Animated radial gradient background, previously .main-bg */
+  background: radial-gradient(100% 100% at var(--87-x-position) var(--87-y-position), #f2dd54 -10%, transparent),
+    radial-gradient(100% 100% at var(--88-x-position) var(--88-y-position), #ffae3d 0%, transparent),
+    radial-gradient(100% 100% at var(--89-x-position) var(--89-y-position), #ffffff 19%, transparent),
+    radial-gradient(100% 100% at 32% 65%, #ff3d8b 75%, transparent),
+    #fff829;
+  animation-name: main;
+  animation-iteration-count: infinite;
+  animation-duration: 11s;
+  transition-timing-function: ease-in;
   color: var(--foreground);
-  font-family: var(--font-family);
-  overflow-x: hidden;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in {
-  animation: fadeIn 0.5s ease-out forwards;
-}
-
-.staggered-fade-in > * {
-  opacity: 0;
-  animation: fadeIn 0.5s ease-out forwards;
-}
-
-.staggered-fade-in > *:nth-child(1) { animation-delay: 0.1s; }
-.staggered-fade-in > *:nth-child(2) { animation-delay: 0.2s; }
-.staggered-fade-in > *:nth-child(3) { animation-delay: 0.3s; }
-.staggered-fade-in > *:nth-child(4) { animation-delay: 0.4s; }
-.staggered-fade-in > *:nth-child(5) { animation-delay: 0.5s; }
-
-.header-text {
-  font-family: var(--font-family);
-  letter-spacing: 0.02em;
-  font-weight: 1000;
-}
-
-.image-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: repeat(2, auto);
-  gap: 12px;
-  height: 400px;
-}
-
-.image-grid-item {
-  overflow: hidden;
-  border-radius: 16px;
+  font-family: var(--font-inter), sans-serif;
+  min-height: 100vh;
   position: relative;
 }
+
+/* Animated radial gradient background */
+@property --30-x-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 20%;
+}
+@property --30-y-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 80.390625%;
+}
+@property --31-x-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 19.453125000000004%;
+}
+@property --31-y-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 17.65625%;
+}
+@property --32-x-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 77.265625%;
+}
+@property --32-y-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 22.187500000000004%;
+}
+@property --33-x-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 67.5%;
+}
+@property --33-y-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 69.6484375%;
+}
+
+@keyframes main {
+  25% {
+    --30-x-position: 15%;
+    --30-y-position: 15%;
+    --31-x-position: 85%;
+    --31-y-position: 80%;
+  }
+  50% {
+    --30-x-position: 80%;
+    --30-y-position: 15%;
+    --31-x-position: 15%;
+    --31-y-position: 85%;
+    --32-x-position: 20%;
+    --32-y-position: 20%;
+    --33-x-position: 20%;
+    --33-y-position: 20%;
+  }
+}
+
+/* .main-bg class removed: gradient now applied globally to body */
+
+@property --87-x-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 28.789062499999996%;
+}
+@property --87-y-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 85.46875%;
+}
+@property --88-x-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 83.125%;
+}
+@property --88-y-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 14.726562499999996%;
+}
+@property --89-x-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 12.226562499999998%;
+}
+@property --89-y-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 61.25000000000001%;
+}
+@property --90-x-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 32.92968750000001%;
+}
+@property --90-y-position {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 65.546875%;
+}
+
+@keyframes main {
+  25% {
+    --87-x-position: 15%;
+    --87-y-position: 15%;
+    --87-x-position: 100%;
+    --87-y-position: 100%;
+    --88-x-position: 85%;
+    --88-y-position: 80%;
+  }
+  50% {
+    --87-x-position: 80%;
+    --87-y-position: 15%;
+    --88-x-position: 15%;
+    --88-y-position: 85%;
+    --89-x-position: 20%;
+    --89-y-position: 20%;
+  }
+}
+
+
+/* Typography for the headline */
+h1, .headline {
+  font-family: var(--font-archivo-black), 'Archivo Black', sans-serif;
+  font-weight: 400;
+}
+
+/* Grainy noise overlay using a pseudo-element */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.15;
+  mix-blend-mode: multiply;
+  background: url('/noise.png'); /* Add noise.png to public/ */
+  background-size: cover;
+}
+
+/* Grainy background 
+.hero-bg {
+  background-image: url('/Svg assets/GggrainSVGGenerator.svg');
+  background-repeat: repeat;
+  background-size: cover;
+}
+*/
+

@@ -63,7 +63,7 @@ function ContactUsPage() {
               <span className="flex items-center gap-2 justify-center"><svg className="animate-spin h-5 w-5 text-white" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" /><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z" /></svg> Sending...</span>
             ) : 'Send Message'}
           </button>
-          {status === 'success' && <div className="text-green-600 text-sm mt-2">Message sent! We'll get back to you soon.</div>}
+          {status === 'success' && <div className="text-green-600 text-sm mt-2">Message sent! We&apos;ll get back to you soon.</div>}
           {status === 'error' && <div className="text-red-600 text-sm mt-2">Something went wrong. Please try again.</div>}
         </form>
         <div className="mt-8 text-center text-black/70 text-sm">

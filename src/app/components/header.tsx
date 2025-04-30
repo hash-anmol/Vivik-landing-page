@@ -29,23 +29,23 @@ function Header() {
           onClick={() => setMenuOpen(false)}
         >
           <div
-              className="bg-white rounded-2xl shadow-xl w-[90vw] max-w-md p-6 flex flex-col gap-6 max-h-[90vh] overflow-y-auto"
+              className="bg-black rounded-2xl shadow-xl w-[90vw] max-w-xs p-6 flex flex-col gap-4 max-h-[90vh] overflow-y-auto"
               onClick={e => e.stopPropagation()}
             >
-            <div className="flex items-center justify-between mb-4">
-              <div className="text-2xl font-black">Menu</div>
+            <div className="flex items-center justify-between mb-2">
+              <div className="text-2xl font-black text-white">Menu</div>
               <button
-                className="text-2xl p-2 rounded-full hover:bg-black/10"
+                className="text-2xl p-2 rounded-full hover:bg-white/10 text-white"
                 onClick={() => setMenuOpen(false)}
                 aria-label="Close Menu"
               >
                 <Cross2Icon className="w-6 h-6" />
               </button>
             </div>
-            <Link href="/" className="text-lg font-medium py-2 text-black" onClick={() => setMenuOpen(false)}>Home</Link>
-            <Link href="/our-story" className="text-lg font-medium py-2 text-black" onClick={() => setMenuOpen(false)}>Our Story</Link>
-            <Link href="/contact-us" className="text-lg font-medium py-2 text-black" onClick={() => setMenuOpen(false)}>Contact Us</Link>
-            <Link href="/progress-board" className="text-lg font-medium py-2 text-black" onClick={() => setMenuOpen(false)}>Progress Board</Link>
+            <Link href="/" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Home</Link>
+            <Link href="/our-story" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Our Story</Link>
+            <Link href="/contact-us" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Contact Us</Link>
+            <Link href="/progress-board" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Progress Board</Link>
           </div>
         </div>
       )}

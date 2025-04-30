@@ -100,6 +100,9 @@ and under which again a place to enter your email the box.
 - [x] Add email form in the new section
 - [x] Add Footer with Logo and Social Links
 - [ ] Contact Us Page
+- [x] Our Story Page - Step 1: Create Basic Page Structure
+- [x] Our Story Page - Step 2: Implement Letter-like Container Design
+- [x] Our Story Page - Steps 3-5: Complete styling and responsiveness
 - [ ] Iteration & New Features
 
 ---
@@ -149,6 +152,73 @@ A dedicated Contact Us page enables users, partners, or press to reach out direc
 
 ---
 
+### Our Story Page: Planning
+
+#### Background and Motivation
+The "Our Story" page provides insight into VIVIK's mission, vision, and the team behind it. It establishes authenticity and emotional connection with potential users, showcasing the values and journey of VIVIK as a friendship-discovery platform for Gen Z in India.
+
+#### Content Proposal
+- **Headline:** "Our Story"
+- **my content:** This will be added by the user later
+
+#### Wireframe/Description
+```
+------------------------------------------
+|  Header (same as main site)            |
+|----------------------------------------|
+|                                        |
+|  [GRADIENT BACKGROUND]                 |
+|                                        |
+|  +--------------------------------+    |
+|  |                                |    |
+|  |  LETTER-LIKE CONTAINER         |    |
+|  |  (off-white color)             |    |
+|  |                                |    |
+|  |  Our Story                     |    |
+|  |                                |    |
+|  |  [User content will go here]   |    |
+|  |                                |    |
+|  +--------------------------------+    |
+|                                        |
+|  Footer (same as main site)            |
+------------------------------------------
+```
+
+#### Design Elements
+- **Letter Container:** Create an off-white (slightly cream/ivory colored) container that resembles a letter or document
+- **Layout:** The letter container should be centered on the page with proper padding, creating a frame-like effect
+- **Background:** Gradient background behind the letter (similar to the gradient used elsewhere on the site)
+- **Typography:** Archievo Black for "Our Story" heading, Inter for body text
+- **Visual Style:** Minimal, clean layout with subtle details that enhance the letter-like appearance (slight shadow, subtle texture)
+- **Dimensions:** Letter container should be smaller than the full viewport, creating a framed effect against the gradient background
+- **Responsive Design:** Container scales appropriately on different devices while maintaining the letter-like appearance
+
+#### Tasks
+1. **Create "Our Story" page at `/our-story`**
+   - Success: Page is accessible at `/our-story` route.
+   - Success: Header and footer match main site.
+
+2. **Implement Letter-like Container Design**
+   - Success: Off-white container with proper padding and proportions is centered on the page.
+   - Success: Container has subtle styling to enhance the letter/document appearance.
+   - Success: Gradient background is visible around the container.
+
+3. **Set Up Typography and Layout**
+   - Success: "Our Story" heading uses Archievo Black font.
+   - Success: Container has appropriate spacing for content to be added later.
+   - Success: Typography follows brand guidelines.
+
+4. **Ensure Responsiveness**
+   - Success: Letter container scales appropriately on different screen sizes.
+   - Success: Maintains proper padding and proportions across devices.
+   - Success: Gradient background adapts to different viewport sizes.
+
+5. **Accessibility Review**
+   - Success: Color contrast between text and background meets WCAG standards.
+   - Success: Semantic HTML structure is in place for content to be added later.
+
+---
+
 ### Footer Section: Planning
 
 #### Background and Motivation
@@ -172,6 +242,30 @@ The footer should provide a clear, visually distinct end to the landing page. It
 
 - Header navigation has been unified: All navigation links are now only accessible via the menu button/modal, even on desktop (PC). The direct nav links have been removed from the header bar. The menu button/modal is visible on all screen sizes. No blockers encountered. Ready for user review and manual testing.
 - Footer section planned. Proceeding to implementation: logo left, social links right, visually distinct, responsive.
+- Our Story page: Created the basic page structure at `/our-story` route with a letter-like container. The page includes:
+  - A full-page gradient background (inherited from the global body styles)
+  - An off-white (#fcfbf7) container with rounded corners and shadow
+  - A subtle paper texture overlay using the existing noise.png
+  - Proper header and footer integration
+  - Placeholder for user content
+  - Ready for user review and testing before proceeding to step 2
+- Our Story page - Step 2 completed: Enhanced the letter-like container design with:
+  - Improved shadow effect with multi-layered shadows for depth
+  - Paper edge effect with a subtle gradient at the top
+  - Decorative folded corner in the top-right
+  - Letterhead-style formatting with a border under the heading
+  - Added a signature area at the bottom with the VIVIK brand name
+  - Increased content area height with proper spacing
+  - Enhanced the paper texture effect
+- Our Story page - Final implementation complete:
+  - Added the founder's note content with proper formatting and styling
+  - Improved the paper-like appearance with a warmer off-white color (#f8f5f0)
+  - Enhanced the paper texture and fold effects to be more visible
+  - Added section dividers using subtle borders
+  - Properly formatted headings, paragraphs, and list items
+  - Applied appropriate typography and spacing for readability
+  - Created a responsive layout that works well on all device sizes
+  - Ensured proper semantic structure for accessibility
 
 # Lessons
 

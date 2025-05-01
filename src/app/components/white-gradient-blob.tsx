@@ -4,8 +4,8 @@ import React, { useState, useEffect, useRef } from "react"
 // Constants
 const MOBILE_BREAKPOINT = 768 // Pixels
 // const ANIMATION_INTERVAL = 4000 // No longer needed for continuous motion
-const LERP_FACTOR_POS = 0.01 // Even slower lerp for continuous drift
-const LERP_FACTOR_RAD = 0.02 // Slower lerp for radius morphing
+// const LERP_FACTOR_POS = 0.01 // Even slower lerp for continuous drift
+// const LERP_FACTOR_RAD = 0.02 // Slower lerp for radius morphing
 // const DRIFT_SPEED = 2 // Controls how fast the target drifts
 // const SHAPE_CHANGE_PROBABILITY = 0.005 // Lower probability for less frequent shape changes
 

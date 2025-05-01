@@ -37,11 +37,11 @@ export default function OurStory() {
             {/* Founder's note content with proper formatting */}
             <div className="text-lg text-black/80 space-y-6">
               <p className="font-medium">
-                Hey, I'm Anmol, Founder of Vivik!
+                Hey, I&apos;m Anmol, Founder of Vivik!
               </p>
               
               <p>
-                I'm really good at a few things:  
+                I&apos;m really good at a few things:  
                 <br/>
                 <br />
                 Understanding metaphysical concepts, 
@@ -56,16 +56,16 @@ export default function OurStory() {
               </p>
               
               <p>
-                But there's one thing I'm not great at, and that's making people clearly aware of what I'm doing.
+                But there&apos;s one thing I&apos;m not great at, and that&apos;s making people clearly aware of what I&apos;m doing.
               </p>
               
               <p>
-                That's exactly what happened with Vivik. After 10s of requests over a month to describe what Vivik is about, I'm finally penning this down.
+                That&apos;s exactly what happened with Vivik. After 10s of requests over a month to describe what Vivik is about, I&apos;m finally penning this down.
               </p>
               
               <div className="border-t border-b border-gray-200/30 my-7"></div>
               
-              <h2 className="text-2xl font-bold text-black/90 mt-8">The "Bro, I have a startup idea!" moment</h2>
+              <h2 className="text-2xl font-bold text-black/90 mt-8">The &quot;Bro, I have a startup idea!&quot; moment</h2>
               
               <p>
                 It was a warm November morning. As usual, I was at my desk, writing articles and ideating. I felt bored and wanted to play badminton-my favorite sport. But there was no one to call. If I wanted to talk about life, startups, or even just grab a coffee, there was no one around who truly got it.
@@ -73,11 +73,11 @@ export default function OurStory() {
               
               <p>
                 For a long time, I dismissed my loneliness in the guise of ambition and work. But it kept coming back:<br />
-                "There has to be an app that helps you find friends to connect with in real life, not just chat online," I thought.
+                &quot;There has to be an app that helps you find friends to connect with in real life, not just chat online,&quot; I thought.
               </p>
               
               <p>
-                I tried dating apps (definitely not the right fit for platonic connections), social media (doesn't help with loneliness), and a few friendship apps (no active users, so nothing happened). Nothing worked.
+                I tried dating apps (definitely not the right fit for platonic connections), social media (doesn&apos;t help with loneliness), and a few friendship apps (no active users, so nothing happened). Nothing worked.
               </p>
               
               <div className="border-t border-b border-gray-200/30 my-8 py-2"></div>
@@ -85,12 +85,12 @@ export default function OurStory() {
               <h2 className="text-2xl font-bold text-black/90">Reddit to the rescue</h2>
               
               <p>
-                I wondered, "Is it just me? Or do others feel this too?"<br />
-                So I went on Reddit and shared my idea-not once, not twice, but three times. Each time, the response was massive: 30K+ views, 200+ comments, and 150+ upvotes. Clearly, I wasn't alone.
+                I wondered, &quot;Is it just me? Or do others feel this too?&quot;<br />
+                So I went on Reddit and shared my idea-not once, not twice, but three times. Each time, the response was massive: 30K+ views, 200+ comments, and 150+ upvotes. Clearly, I wasn&apos;t alone.
               </p>
               
               <p>
-                That's how I came across the idea behind Vivik.
+                That&apos;s how I came across the idea behind Vivik.
               </p>
               
               <div className="border-t border-b border-gray-200/30 my-7"></div>
@@ -102,19 +102,19 @@ export default function OurStory() {
               </p>
               
               <p>
-                But here I am. I still don't know where this will end up, but this time, I'm going all in. I'm committed to going from 0 to 1.
+                But here I am. I still don&apos;t know where this will end up, but this time, I&apos;m going all in. I&apos;m committed to going from 0 to 1.
               </p>
               
               <div className="border-t border-b border-gray-200/30 my-7"></div>
               
-              <h2 className="text-2xl font-bold text-black/90">What's Vivik about?</h2>
+              <h2 className="text-2xl font-bold text-black/90">What&apos;s Vivik about?</h2>
               
               <p>
-                Vivik is an app to help you find people nearby who share your interests and actually chill with them offline. But that's just the idea-not the vision or the whole story.
+                Vivik is an app to help you find people nearby who share your interests and actually chill with them offline. But that&apos;s just the idea-not the vision or the whole story.
               </p>
               
               <p className="font-medium">
-                Here's what we're building:
+                Here&apos;s what we&apos;re building:
               </p>
               
               <ul className="list-inside space-y-4 pl-2">
@@ -124,28 +124,28 @@ export default function OurStory() {
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold">CONNECT:</span> 
-                  <span>This is the exciting part-most friendship apps stop at chatting. We're about finding friends and experiencing things together. In the app, you'll find activities hosted by individuals and our partners-from book clubs and startup events to party nights and coffee meetups.</span>
+                  <span>This is the exciting part-most friendship apps stop at chatting. We&apos;re about finding friends and experiencing things together. In the app, you&apos;ll find activities hosted by individuals and our partners-from book clubs and startup events to party nights and coffee meetups.</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="font-bold">EXPERIENCE:</span> 
-                  <span>We're starting by onboarding coffee shops and book clubs, so you can vibe on your next fun project while sipping coffee with your new buddies.</span>
+                  <span>We&apos;re starting by onboarding coffee shops and book clubs, so you can vibe on your next fun project while sipping coffee with your new buddies.</span>
                 </li>
               </ul>
               
               <div className="border-t border-b border-gray-200/30 my-7"></div>
               
-              <h2 className="text-2xl font-bold text-black/90">What's Next</h2>
+              <h2 className="text-2xl font-bold text-black/90">What&apos;s Next</h2>
               
               <p>
                 Our next step is to launch a community that does exactly what our app is meant for-even before we build the app.
               </p>
               
               <p>
-                This is just the beginning. I don't know exactly where Vivik will go, but I'm excited to find out.
+                This is just the beginning. I don&apos;t know exactly where Vivik will go, but I&apos;m excited to find out.
               </p>
               
               <p className="font-medium">
-                Let's go from 0 to 1, together.
+                Let&apos;s go from 0 to 1, together.
               </p>
             </div>
             
@@ -155,7 +155,7 @@ export default function OurStory() {
               <div className="w-72 h-56 relative mb-2">
                 <Image 
                   src="/Sign.png" 
-                  alt="Anmol's signature" 
+                  alt="Anmol&apos;s signature" 
                   width={500}
                   height={400} 
                   className="object-contain"

@@ -1,5 +1,5 @@
 import { HeroSection } from "./components/hero-section"
-import { TribeSection } from "./components/tribe-section"
+import { TribeSection } from "./components/middle-section"
 import { Footer } from "./components/footer"
 
 export default function Home() {

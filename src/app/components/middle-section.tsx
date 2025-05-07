@@ -8,7 +8,7 @@ function TribeSection() {
         Ready to find your tribe? <span role="img" aria-label="Rocket">🚀</span>
       </h2>
       <p className="text-lg md:text-2xl text-white/80 font-normal mb-8 max-w-2xl" style={{fontFamily: 'Inter, sans-serif'}}>
-        Launching soon near you!
+        Join our community and be the first one to experience VIVIK.
       </p>
     </section>
   )

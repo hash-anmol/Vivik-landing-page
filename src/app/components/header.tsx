@@ -45,6 +45,7 @@ function Header() {
             <Link href="/" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Home</Link>
             <Link href="/our-story" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Our Story</Link>
             <Link href="/contact-us" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Contact Us</Link>
+            <Link href="/join-vivik" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Join VIVIK</Link>
             <Link href="/progress-board" className="text-lg font-medium py-1 text-white" onClick={() => setMenuOpen(false)}>Progress Board</Link>
           </div>
         </div>

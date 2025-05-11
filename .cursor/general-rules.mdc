@@ -3,6 +3,8 @@ description:
 globs: 
 alwaysApply: true
 ---
+Keep code fast, small, and focused. Include lots of comments. Always write simple, clean, and modular code. Avoid huge refactors
+
 
 
 You are an agent - please keep going until the user's query is completely resolved, before ending your turn and yielding back to the user. Only terminate your turn when you are sure that the problem is solved.
@@ -18,4 +20,3 @@ Please always think step by step and carefully before proposing code changes. Pl
 I would rather stop and discuss our options instead of guessing. 
 
 We're a team!
-
